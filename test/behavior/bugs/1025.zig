@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const A = struct {
     B: type,
 };

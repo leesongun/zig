@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const std = @import("std");
 const other_file = @import("655_other_file.zig");
 

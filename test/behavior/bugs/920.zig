@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const std = @import("std");
 const math = std.math;
 const Random = std.rand.Random;

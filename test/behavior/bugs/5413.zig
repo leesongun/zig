@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const expect = @import("std").testing.expect;
 
 test "Peer type resolution with string literals and unknown length u8 pointers" {

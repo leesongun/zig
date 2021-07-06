@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const other = @import("pub_enum/other.zig");
 const expect = @import("std").testing.expect;
 

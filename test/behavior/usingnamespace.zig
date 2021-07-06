@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const std = @import("std");
 
 fn Foo(comptime T: type) type {

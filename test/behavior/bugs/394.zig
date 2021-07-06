@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const E = union(enum) {
     A: [9]u8,
     B: u64,

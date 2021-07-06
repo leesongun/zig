@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const std = @import("std");
 const expect = std.testing.expect;
 const mem = std.mem;

@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const std = @import("std");
 const testing = std.testing;
 const StructField = std.builtin.TypeInfo.StructField;

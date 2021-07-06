@@ -1,3 +1,4 @@
+const expectEqual = @import("std").testing.expectEqual;
 const expect = @import("std").testing.expect;
 
 var read_count: u64 = 0;
