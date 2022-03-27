@@ -1707,7 +1707,7 @@ static LLVMValueRef gen_widen_or_shorten(CodeGen *g, bool want_runtime_safety, Z
         ZigType *wanted_type, LLVMValueRef expr_val)
 {
     assert(actual_type->id == wanted_type->id);
-    assert(expr_val != nullptr);
+    if
 
     ZigType *scalar_actual_type = (actual_type->id == ZigTypeIdVector) ?
         actual_type->data.vector.elem_type : actual_type;
