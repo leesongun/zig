@@ -59,7 +59,7 @@ pub fn Complex(comptime T: type) type {
                 .im = self.im - other.im,
             };
         }
-
+t
         /// Returns the product of two complex numbers.
         pub fn mul(self: Self, other: Self) Self {
             return Self{
